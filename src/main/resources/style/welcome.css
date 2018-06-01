@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto") format("truetype");
+}
+
+.hello-wrapper {
+    font-family: "Roboto", sans-serif;
+    color: #8a0725;
+}
