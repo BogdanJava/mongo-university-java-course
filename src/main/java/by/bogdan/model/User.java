@@ -15,5 +15,4 @@ public class User {
     private double weight;
     private double height;
     private String university;
-
 }

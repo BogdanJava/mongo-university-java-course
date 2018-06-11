@@ -1,5 +1,7 @@
-package by.bogdan.routing;
+package by.bogdan.routing.impl;
 
+import by.bogdan.routing.AppRoute;
+import by.bogdan.routing.ApplicationRoute;
 import spark.Spark;
 import spark.resource.ClassPathResource;
 
@@ -29,7 +31,7 @@ public class FileRouter implements AppRoute {
         });
     }
 
-    private static String getFileContent(ClassPathResource resource) throws IOException {
+    private String getFileContent(ClassPathResource resource) throws IOException {
         return new BufferedReader(new FileReader(resource.getFile())).lines().reduce((a, b) -> a + "\n" + b).get();
     }
 }

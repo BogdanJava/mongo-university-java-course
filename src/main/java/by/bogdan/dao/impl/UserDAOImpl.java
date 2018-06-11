@@ -1,5 +1,6 @@
-package by.bogdan.dao;
+package by.bogdan.dao.impl;
 
+import by.bogdan.dao.UserDAO;
 import by.bogdan.model.User;
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;

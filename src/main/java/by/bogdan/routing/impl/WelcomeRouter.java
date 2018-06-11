@@ -1,6 +1,8 @@
-package by.bogdan.routing;
+package by.bogdan.routing.impl;
 
 import by.bogdan.main.Application;
+import by.bogdan.routing.AppRoute;
+import by.bogdan.routing.ApplicationRoute;
 import by.bogdan.utils.UserBuilder;
 import freemarker.template.Template;
 import spark.Spark;

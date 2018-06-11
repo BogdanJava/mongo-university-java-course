@@ -1,7 +1,7 @@
 package by.bogdan.config;
 
 import by.bogdan.dao.UserDAO;
-import by.bogdan.dao.UserDAOImpl;
+import by.bogdan.dao.impl.UserDAOImpl;
 import com.mongodb.Function;
 import com.mongodb.MongoClient;
 
